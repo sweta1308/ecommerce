@@ -1,0 +1,102 @@
+.product {
+    margin: 60px 50px;
+    padding: 10px 50px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .header {
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  
+  .heading {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  
+  .paragraph {
+    font-size: 13px;
+    color: hsl(219, 9%, 45%);
+  }
+  
+  .price {
+    display: flex;
+    margin-top: -10px;
+  }
+  
+  h3 {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  
+  .price p {
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    font-weight: 700;
+    font-size: 12px;
+    height: 16px;
+    margin-top: 23px;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+  
+  .original {
+    margin-top: -13px;
+    font-size: 14px;
+    color: hsl(220, 14%, 75%);
+    font-weight: 700;
+    text-decoration: line-through;
+  }
+  
+  .last {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .quantity {
+    display: flex;
+    background-color: hsl(223, 64%, 98%);
+    width: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  .quantity p {
+    font-weight: 700;
+  }
+  
+  .plus,
+  .minus {
+    cursor: pointer;
+  }
+  
+  .add {
+    display: flex;
+    align-items: center;
+    background-color: hsl(26, 100%, 55%);
+    width: 250px;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px hsl(25, 85%, 87%);
+  }
+  
+  .add img {
+    height: 15px;
+  }
+  
+  .add p {
+    color: white;
+    margin-left: 5px;
+    font-size: 14px;
+  }
+  
+  .add:hover {
+    background-color: hsl(25, 97%, 77%);
+  }
+  
